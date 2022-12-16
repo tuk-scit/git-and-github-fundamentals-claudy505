@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>LEGITT ELECTIONS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <div class="menubar">
+    <ul>
+        <li class="actve"><a href="home.html">Home</a></il>
+            <li><a href="Vote.html">Vote</a></il>
+                <li><a href="Candidates.html">Candidates</a></il>
+                    <li><a href="Results.html">Results</a></il>
+                        <li><a href="#">About</a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Mission:<br>To provide  confidential and transparent elections with aim of promoting demoracy</a><br><br>
+                                    <a href="#">Contact:<br>0741616484</a><br><br>
+                                    <a href="#">Location:<br>Thika Town Arcade building 5th Floor rm 6</a><br>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+    </ul>
+   </div>
+   <div class="content">
+    <div class="h1">Legitt Electral Commission </h1></div>
+    <p>Welcome to Legitt Electral Commission.A transparent website dedicated to delivering confidential and fair elections.Every vote counts.</p><br><br>
+    <div class="h2">Our Mission</h2> </div>
+    <p>To provide  confidential and transparent elections with aim of promoting demoracy.</p>
+   </div>
+   <myBtn class="active">
+   <button id="myBtn" type="button" class="myBtn"> Instructions  </button></myBtn>
+   <script>
+    const myBtn = document.getElementById("myBtn");
+    
+    myBtn.addEventListener("click", function(e){
+        const name = prompt("What is your name?");
+        document.body.innerHTML = "<h1>Here are the instructions  "+  name +"!</h1>";
+        document.body.innerHTML = "<h1>Hello  "+ name  + ";" + "  to proceed, please select the Vote tab and you will be redirected to a secure page. We guarantee complete confidentiality with your information.<br><br><br> The results tab shows live tallying and is updated on a daily basis.<br><br><br>The candidates tab shows backgrounds of candidates and their political parties.<br><br></h1>"
+         +"<br><br><p>Refresh the page to proceed to the home page</p>";
+    });
+   </script>
+   <br><br><br><br><br><br>
+   <!--footer-->
+   <div class="footer">
+   <p>Contact us: 0741 616 484</p>
+   <p>Email us  : legittelectralcommission@gmail.com</p>
+   <p>Location  : Thika Town Arcade building 5th Floor rm 6</p>
+   </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+body{
+    background-color:rgb(13, 190, 102);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: auto;
+    background-position: center;
+}
+.button{
+    color:chartreuse;
+    border-color: rgb(163, 230, 8);
+    background-color: black;
+    border-radius: 5cm;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 15px 25px;
+}
+.menubar{
+    background-color: black;
+    text-align: center;
+    background-size: cover;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.active, .menubar ul li:hover
+{
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.content{
+color: black;
+margin: 25px;
+font-family: sans-serif;
+text-indent: 4px;
+text-align: left;
+text-decoration: black;
+text-decoration: bold;
+padding: 25px;
+width: 700px;
+}
+.h1{
+    color: darkslategrey;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 30px;
+}
+.h2{
+    color: darkslategrey;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 20px;
+}
+.myBtn{
+    background-color: blue;
+    background-position: center;
+    font-size: 40px;
+    font-style: italic;
+    padding: 30px;
+    background-size: 200 px;
+    border-radius: 105px;
+    border-style: double;
+    border-color: chartreuse;
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+.active:hover{
+background: whitesmoke;
+border-radius: 7px;
+}
+.footer{
+    height:200px;
+    color: chartreuse;
+    background-color:black;
+    text-align:center;
+    padding-top:20px;
+    font-style: italic;
+    padding-bottom: 0cm;
+    margin-bottom: 0px;
+}
+.sub-menu{
+    display: none;
+}
+.menubar ul li:hover .sub-menu 
+{
+display: block;
+position: absolute;
+background-color:black;
+margin-top: 25px;
+margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu ul
+{
+display: block;
+margin: 10px;
+}
+.menubar ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+}
+.menubar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: blue;
+}
+.menubar ul li:hover .sub-menu ul li a:hover{
+    color: whitesmoke;
+    display: inline-flex;
+}

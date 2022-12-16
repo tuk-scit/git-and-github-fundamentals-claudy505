@@ -1,0 +1,15 @@
+.form{
+    background-color: black;
+    border-radius: 5cm;
+    border-style: double;
+    border-width: 10px;
+    height: 250px;
+    position: relative;
+    opacity: 0.6;
+    color: lawngreen;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    align-self: center;
+    
+}

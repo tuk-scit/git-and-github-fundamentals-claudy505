@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    .body{
+    background-size: cover;
+    box-sizing: border-box;
+    padding: auto;
+    background-position: center;
+}
+.radio{
+    color:chartreuse;
+    border-color: rgb(163, 230, 8);
+    background-color: rgb(38, 5, 65);
+    border-radius: 5cm;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 15px 25px;
+}
+.menubar{
+    background-color: black;
+    text-align: center;
+    background-size: cover;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.active, .menubar ul li:hover
+{
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.content{
+color: black;
+margin: 0px;
+font-family: sans-serif;
+background-color: chartreuse;
+font-size: 34px;
+text-align: center;
+text-decoration: black;
+text-decoration: bold;
+padding: 25px;
+width: 100%;
+}
+.form{
+    margin-top: 10px;
+    color: rgb(12, 243, 243);
+    background-color: blue;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 30px;
+    border-style: dotted;
+    border-radius: 7cm;
+}
+.h2{
+    color: darkslategrey;
+    text-align: center;
+    text-decoration-style: none;
+    font-size: 20px;
+}
+.myBtn{
+    background-color: blue;
+    background-position: center;
+    font-size: 40px;
+    font-style: italic;
+    padding: 30px;
+    background-size: 200 px;
+    border-radius: 105px;
+    border-style: double;
+    border-color: chartreuse;
+    margin-left: 50%;
+    margin-right: 50%;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+.active:hover{
+background: whitesmoke;
+border-radius: 7px;
+}
+.footer{
+    height:300px;
+    color: rgb(103, 131, 173);
+    background-color:black;
+    text-align:center;
+    padding-top:20px;
+    font-style: italic;
+    padding-bottom: 0cm;
+    margin-left: 0px;
+}
+.form li{
+     list-style:none;
+     display:inline block;
+}
+.sub-menu{
+    display: none;
+}
+.menubar ul li:hover .sub-menu 
+{
+display: block;
+position: absolute;
+background-color:black;
+margin-top: 25px;
+margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu ul
+{
+display: block;
+margin: 10px;
+}
+.menubar ul li:hover .sub-menu ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+}
+.menubar ul li:hover .sub-menu ul li:last-child{
+    border-bottom: blue;
+}
+.menubar ul li:hover .sub-menu ul li a:hover{
+    color: whitesmoke;
+    display: inline-flex;
+}
+</style>
+    </head>
+    <body>
+        <div class="menubar">
+            <ul>
+                <li class="actve"><a href="home.html">Home</a></il>
+                    <li><a href="Vote.html">Vote</a></il>
+                        <li><a href="Candidates.html">Candidates</a></il>
+                            <li><a href="Results.html">Results</a></il>
+                                <li><a href="#">About</a>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Mission:<br>To provide  confidential and transparent elections with aim of promoting demoracy</a><br><br>
+                                            <a href="#">Contact:<br>0741616484</a><br><br>
+                                            <a href="#">Location:<br>Thika Town Arcade building 5th Floor rm 6</a><br>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+            </ul>
+           </div>
+           <p><strong>Once submitted,you cannot cast vote again</strong></p>
+           <div class="content">
+            <p style="text-align: center;font-size: 18px;text-decoration: double;">Select prefered candidate</p>
+            <div class="form">
+                <form action="home.html" method="post"> 
+                    <style> background-color: black;
+                        opacity: 0.6;
+                        color: lawngreen;
+                        shape-margin: 5px;
+                        border:red
+                        </style>
+                        <br>
+                       <ol> 
+                        <label></label>
+                    <button type="radio" value="Mariam Cherotich" color="black" border="red" height="70px"><br><br>
+                       <li> <label>Theodore Bakuri</label>
+                    <button type="radio" value="Mariam Cherotich" color="black" background-color="green" border="red" height="70px"><br><br>
+                   <li>
+                    <label>Mariam Cherotich</label>
+                    <button type="radio" value="Mariam Cherotich" color="black" border="red" height="70px"><br><br></li><br>
+                   <li> <label>Shreck Anthony</label>
+                    <button type="radio" value="Shreck Anthony" color="black" border="red" height="70px"><br><br></li><br>
+                    <li><label>Michael Askofu</label>
+                    <button type="radio" value="Michael Askofu" color="black" border="red" height="70px"><br><br></li>
+                    <li><label>John Wanyonyi</label></li>
+                    <button type="radio" value="John Wanyonyi" color="black" border="red" height="70px"><br><br>
+                    <label>Sharon Mama</label>
+                    <button type="radio" value="Sharon Mama" color="black" border="red" height="70px"><br><br>
+                    <label>Hellen Watiri</label>
+                    <button type="radio" value="Hellen Watiri" color="black" border="red" height="70px"><br><br>
+                    </ol>
+                </form>
+                <br><br><br>
+           </div>
+           <br><br>
+
+           <!--footer-->
+           <div class="footer">
+           <p>Contact us: 0741 616 484</p>
+           <p>Email us  : legittelectralcommission@gmail.com</p>
+           <p>Location  : Thika Town Arcade building 5th Floor rm 6</p>
+           </div>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpageusing div</title>
+
+            <style>
+                .body{
+                    margin:0px;
+
+                }
+                .header{
+                    padding:10px;
+                    background-color:black;
+                    text-align:center;
+                    margin-top: 0;
+                }
+                .header h2{
+                    color: chartreuse;
+                }
+                /*============[NAV CSS]===============*/
+                .nav{
+                    background-color:#243238;
+                    padding:5px;
+                } 
+                .nav li{
+                    list-style:none;
+                    display:inline block;
+                    padding:8px;
+                    border-radius: 3px;
+                }
+                .logo{
+                    width:60%;
+                    background-image: url("OIF.jpg");
+                }
+                .nav a{
+                    color:#fff;
+                }
+                .nav ul li a:hover{
+                    text-decoration:none;
+                    color:#7fffd4;
+                  
+                }
+                .lside{
+                    float:left;
+                    width:60%;
+                    height:700px;
+                    background-color:#101e24;
+                    margin-left: 0;
+                    padding-top: 100px;
+                    text-align: center;
+                    border: darkseagreen;
+                }
+                .lside ol{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    background-position: center;
+                    background-color:rgb(13, 190, 102);
+                    opacity: 70%;
+                    border-radius: 57px;
+                    border-style: groove;
+                    border-color: chartreuse;
+                    text-align: left;
+
+                }
+                .lside ol li{
+                    padding-bottom: 0px;
+                    padding-left: 10px;
+                    font-family: monospace;
+                    color:darkblue;
+                    font-size: 18px;
+                }
+                .rside{
+                    float:right;
+                    width:40%;
+                    height:35px;
+                    background-color:#101111;
+                    font-family: cursive;
+                
+                }
+                .footer{
+                    height:400px;
+                    background-color:rgba(34, 140, 226, 0.514);
+                    text-align:center;
+                
+                }
+                .footer p{
+                    color:#2e6b2e;
+                    padding-bottom: 10px;
+                    margin-bottom: 20px;
+                }
+                .news{
+                    float: right;
+                    width: 40%;
+                    color: #7fffd4;
+                    height:700px;
+                    margin-right: 0px;
+                    background-color:#455e64;
+                    text-align:center;
+                    padding-top:100px;
+                    font-style: oblique;
+                    font-weight: 900;
+                    font-stretch: expanded;
+                    border-color: chartreuse;
+                }
+            </style>
+
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <h2>THE  NATIONAL  ELECTIONS  RESULTS </h2>
+            </div>
+            <!-nav->
+            <div class="nav">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="candidates.html">CANDIDATES</a></li>
+                    <li><a href="vote.html">VOTE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li style="float:right;"><a href="login-1.html">LOG_OUT</a></li><br><br>
+                    <li style="float:right;"><a href="signup.html">SIGNUP</a></li><br>
+                </ul>
+            </div>
+            <!-main->
+            <div style="height:440px">
+                <div class="lside">
+                    <h1>Presidential results</h1>
+                    <ol>
+                        <li><img src="untitled.png" height="56" width="80" ><br>Theodore Bakuri     -       2000 votes</li><br>
+                        <li><img src="OIP3PNFDSL1.jpg" height="56" width="80" ><br>Michael Askofu     -       1733 votes</li><br>
+                        <li><img src="untitledWpng.png" height="56" width="80" ><br>Mariam Cherotich     -       1197 votes</li><br>
+                        <li><img src="unBtitled.png" height="56" width="80" ><br>Shreck Anthony     -       777 votes</li><br>
+                        <li><img src="untitled.png" height="56" width="80" ><br>John Wanyonyi      -       204 votes</li><br>
+                    </ol>
+    
+                </div>
+                <div class="news">
+                    <h1 style="font-display: bold;text-align: center;text-decoration: underline;color: #7fffd4;">P O L I T I C A L <br> N E W S</h1>
+                    <h2>Women have stepped up more in this elections</h2><br>
+                    <img src="OIPM56O39AN.jpg" height="250">
+                    <p style="text-align: left;margin-left: 35px;margin-bottom: 10px;">There are a total of 300 Member of parliamentary seats.Women have taken up 87 of these seats so far accounting for about a third.</p>
+                </div>
+            </div><br><br><br>
+        </div><br><br><br>
+        <!--footer-->
+        <div class="footer">
+            <br><br>
+                <p>Contact us: 0741 616 484</p>
+                <p>Email us  : legittelectralcommission@gmail.com</p>
+                <p>Location  : Thika Arcade building 5th Floor</p>
+        
+        </div>
+    </body>
+    </html>
